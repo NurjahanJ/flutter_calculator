@@ -1,16 +1,5 @@
 # flutter_calculator
 
-A new Flutter project.
+## A simple calculator that can add, subtract, mutiply and divide.
+### There is an option for light anc dark mode and there is a history button that records activity for the record.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
