@@ -6,8 +6,7 @@
 * History - Records activity for present session
 
 ### First time using Flutter:
-* It is easy and simple
-* Fast and convenient
+* It is easy, simple, fast and convenient
 * I was able to make the calculator without much issues
 
 ## Calculator
