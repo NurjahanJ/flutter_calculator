@@ -7,6 +7,8 @@ void main() {
 }
 
 class CalculatorApp extends StatefulWidget {
+  const CalculatorApp({super.key});
+
   @override
   _CalculatorAppState createState() => _CalculatorAppState();
 }
@@ -34,7 +36,8 @@ class CalculatorScreen extends StatefulWidget {
   final Function toggleTheme;
   final bool isDarkMode;
 
-  CalculatorScreen({required this.toggleTheme, required this.isDarkMode});
+  const CalculatorScreen(
+      {super.key, required this.toggleTheme, required this.isDarkMode});
 
   @override
   _CalculatorScreenState createState() => _CalculatorScreenState();
@@ -116,7 +119,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
       builder: (BuildContext context) {
         return AlertDialog(
           title: Text("Calculation History"),
-          content: Container(
+          content: SizedBox(
             width: double.maxFinite,
             child: ListView(
               shrinkWrap: true,
